@@ -1,0 +1,37 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+    --black: rgba(47, 47, 47, 1);
+    --primary-color: rgba(99, 88, 220, 1);
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Thêm CSS cho nút tìm kiếm */
+.Search-engine {
+    display: flex;
+    align-items: center;
+}
+
+.Search-engine input {
+    margin-right: 10px; /* Khoảng cách giữa input và button */
+}
+
+.Search-engine button {
+    padding: 5px 10px;
+    background-color: #007bff; /* Màu nền */
+    color: white; /* Màu chữ */
+    border: none; /* Không có viền */
+    border-radius: 4px; /* Bo góc */
+    cursor: pointer; /* Con trỏ chuột khi hover */
+}
+
+.Search-engine button:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}

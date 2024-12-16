@@ -1,0 +1,19 @@
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li.completed span {
+    text-decoration: line-through;
+}
+li button{
+    padding: 10px;
+    background-color: rgb(247, 74, 74);
+    
+}
